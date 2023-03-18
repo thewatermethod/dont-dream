@@ -7,8 +7,12 @@
             </div>
             <nav class="splash-menu">
                 <ul>
-                    <li><a href="#">Rules</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li>
+                        <NuxtLink to="/srd">Rules</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/account">Login</NuxtLink>
+                    </li>
                 </ul>
             </nav>
         </div>

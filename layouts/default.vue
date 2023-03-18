@@ -1,13 +1,6 @@
 <template>
     <div class="layout-grid">
-        <aside>
-            <nav>
-                <ul>
-                    <li><a href="#">Rules</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-            </nav>
-        </aside>
+        <Nav />
         <slot />
     </div>
 </template>
