@@ -1,11 +1,17 @@
 <template>
     <div class="layout-grid">
         <Nav />
-        <slot />
+        <main class="main-content">
+            <slot />
+        </main>
     </div>
 </template>
 
 <style>
+.main-content {
+    padding: 0 1rem;
+}
+
 .layout-grid {
     display: grid;
     grid-template-columns: 1fr 3fr;

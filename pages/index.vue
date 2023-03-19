@@ -86,6 +86,8 @@ main {
     --scale: 0.5;
     font-size: calc(var(--width) / (var(--length, 1) * 0.5) * var(--scale, 1));
     margin: 0;
+
+    font-family: 'Permanent Marker', cursive;
 }
 
 .bloody.up-and-down h1 {
