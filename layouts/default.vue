@@ -73,7 +73,7 @@ useHead({
 
 .site-title h1 {
     color: tomato;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'VallejoSerifBlack', cursive;
     margin: 0;
 }
 

@@ -22,6 +22,10 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 
+useHead({
+    title: 'Don\'t Dream',
+})
+
 // use a special layout for the home page
 definePageMeta({
     layout: "home",
@@ -86,8 +90,7 @@ main {
     --scale: 0.5;
     font-size: calc(var(--width) / (var(--length, 1) * 0.5) * var(--scale, 1));
     margin: 0;
-
-    font-family: 'Permanent Marker', cursive;
+    font-family: "VallejoSerifBlack", cursive;
 }
 
 .bloody.up-and-down h1 {
@@ -104,7 +107,7 @@ main {
     }
 
     100% {
-        transform: translateY(-100px);
+        transform: translateY(-20px);
     }
 }
 
@@ -114,7 +117,7 @@ main {
     }
 
     100% {
-        transform: translateY(100px);
+        transform: translateY(20px);
     }
 }
 

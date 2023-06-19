@@ -1,4 +1,35 @@
 /**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Vallejo Serif Regular by Estudio Calderon
+ * URL: https://www.myfonts.com/products/regular-vallejo-serif-287974
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Vallejo Serif Black by Estudio Calderon
+ * URL: https://www.myfonts.com/products/black-vallejo-serif-287979
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2023 MyFonts Inc. */
+
+/* @font-face {
+  font-family: "VallejoSerifRegular";
+  src: url("fonts/webFonts/VallejoSerifRegular/font.woff2") format("woff2"),
+    url("fonts/webFonts/VallejoSerifRegular/font.woff") format("woff");
+} */
+@font-face {
+  font-family: "VallejoSerifBlack";
+  src: url("fonts/webFonts/VallejoSerifBlack/font.woff2") format("woff2"),
+    url("fonts/webFonts/VallejoSerifBlack/font.woff") format("woff");
+}
+
+/**
 main button styles
 **/
 button,
@@ -31,4 +62,17 @@ table th {
 table td {
   border: 1px solid #ddd;
   padding: 12px;
+}
+
+/**
+link reset
+**/
+a,
+a:visited {
+  color: darkslateblue;
+}
+
+a:hover,
+a:visited:hover {
+  color: darkred;
 }
