@@ -10,9 +10,9 @@
                     <li>
                         <NuxtLink to="/srd">Rules</NuxtLink>
                     </li>
-                    <li>
+                    <!-- <li>
                         <NuxtLink to="/account">Login</NuxtLink>
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
         </div>

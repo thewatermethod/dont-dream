@@ -1,7 +1,7 @@
 ---
 id: 1
 title: The Autopsy
-playbookId: 1
+playbook: The Doctor
 ---
 
 When you examine a dead body in the presence of at least one of your fellow investigators, you gain special insight. Hold up something disgusting and Roll + COMPOSURE.

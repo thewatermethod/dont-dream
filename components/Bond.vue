@@ -1,5 +1,6 @@
 <template>
     <div class="form-group form-group__bond">
+
         <label :for="`bond-name-${bondGuid}`">Name</label>
         <input type="text" :name="`bond-name-${bondGuid}`" :id="`bond-name-${index}`" />
 
@@ -31,7 +32,7 @@
             </label>
         </div>
 
-        <button :disabled="canRemove" type="button" @click="() => removeBond(bondGuid)">Sacrifice Bond</button>
+        <button type="button" @click="() => removeBond(bondGuid)">Sacrifice Bond</button>
     </div>
 </template>
 
@@ -43,7 +44,6 @@ defineProps<{
 }>()
 
 const bondQuality = ref([])
-const canRemove = computed(() => bondQuality.value.length > 1);
 const oneDisabled = computed(() => bondQuality.value.length >= 2);
 const twoDisabled = computed(() => bondQuality.value.length < 1 || bondQuality.value.length >= 3);
 const threeDisabled = computed(() => bondQuality.value.length < 2);
@@ -51,6 +51,12 @@ const threeDisabled = computed(() => bondQuality.value.length < 2);
 </script>
 
 <style scoped>
+.form-group__bond {
+    border: 1px solid tomato;
+    border-radius: 0.5rem;
+    flex-direction: column;
+}
+
 input[type="text"] {
     flex: 4;
 }
@@ -76,7 +82,6 @@ input[type=checkbox] {
 .bond-quality:has(input[type="checkbox"]:disabled) {
     background: black;
 }
-
 
 .bond-quality label {
     display: block;

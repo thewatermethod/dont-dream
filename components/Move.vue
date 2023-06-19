@@ -13,6 +13,7 @@ defineProps<{
 
 <style scoped>
 article {
+    color: black;
     box-shadow: 1px 1px 1px white;
 }
 </style>
