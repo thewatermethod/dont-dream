@@ -23,6 +23,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Basic-Auth = '''
-    baby:iambaby 
-    daddy:iamdaddy'''
+  Basic-Auth = "baby:iambaby daddy:iamdaddy"
