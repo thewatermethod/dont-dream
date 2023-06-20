@@ -3,6 +3,7 @@ title: Reality
 rules_page: 6
 prev: 5
 next: 7
+pdf_order: 6
 ---
 
 Each investigator starts with three reality points. These reality points are one of the core resources an investigator may use to solve a mystery in Don’t Dream. Reality points represent the connection a character has to the waking world & reality. Reality points are lost more frequently than Health points but they are more easily reclaimed. They are also often used to assign magical items at the conclusion of a mystery.

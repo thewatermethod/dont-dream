@@ -3,6 +3,7 @@ title: Investigator Death
 prev: 15
 rules_page: 16
 next: 17
+pdf_order: 16
 ---
 
 The rules to Don’t Dream are written in such a way that it is usually possible to avoid investigator death to a degree, but the rules do differ from other storytelling games that use similar rules in that investigator death can happen unexpectedly and there is a certain amount of lethality built into every mystery.

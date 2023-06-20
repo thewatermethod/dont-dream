@@ -1,5 +1,6 @@
 ---
 title: The Dreamer
+pdf_order: 23
 ---
 
 _A tortured artist, psychic, and psychonaut_

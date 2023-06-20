@@ -3,6 +3,7 @@ title: The Cabal
 prev: 13
 rules_page: 14
 next: 15
+pdf_order: 14
 ---
 
 As the investigators uncover cabal clues, they advance the meta plot of the game and the saga of Coffin's Mill towards its inevitable end. The Keeper should update the Cabal sheet and play out any scenes or consequences associated with it each time the investigators unlock a new clue or advance a level.

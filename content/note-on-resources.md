@@ -3,6 +3,7 @@ title: A note on resources
 rules_page: 7
 prev: 6
 next: 8
+pdf_order: 7
 ---
 
 There are many times in the game where you might be instructed as part of a roll to do one thing or another, for example sacrifice a bond or a reality point. These mechanics exist as fictional guardrails, but they should serve the fiction, not the other way around.

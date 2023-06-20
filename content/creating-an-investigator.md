@@ -3,6 +3,7 @@ title: Creating an investigator
 rules_page: 12
 prev: 11
 next: 13
+pdf_order: 12
 ---
 
 - Choose a name and a [playbook](/playbooks). Select two of the playbook moves.

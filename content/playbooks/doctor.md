@@ -1,7 +1,7 @@
 ---
 id: 1
 title: The Doctor
-layout: playbook
+pdf_order: 22
 ---
 
 _A grizzled medical examiner, teacher, doctor, or scientist_

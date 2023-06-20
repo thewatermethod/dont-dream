@@ -1,5 +1,6 @@
 ---
 title: The Beefcake
+pdf_order: 19
 ---
 
 _Ruler of the beach, strongman, jock, lead singer._

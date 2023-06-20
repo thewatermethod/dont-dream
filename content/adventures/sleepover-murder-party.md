@@ -1,5 +1,6 @@
 ---
 title: "Sleepover Murder Party"
+pdf_order: 29
 ---
 
 Difficulty: 3

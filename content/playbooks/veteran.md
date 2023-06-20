@@ -1,5 +1,6 @@
 ---
 title: The Veteran
+pdf_order: 27
 ---
 
 _A former soldier, police officer, bodyguard, or security professional._

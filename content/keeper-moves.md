@@ -3,6 +3,7 @@ title: Keeper Moves
 prev: 16
 rules_page: 17
 next: 18
+pdf_order: 17
 ---
 
 A keeper does not roll dice, but they are responsible for maintaining forward motion and assigned consequences.

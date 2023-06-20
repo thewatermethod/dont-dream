@@ -3,6 +3,7 @@ title: Magical items
 prev: 14
 rules_page: 15
 next: 16
+pdf_order: 15
 ---
 
 Certain adventures unlock magical items. These magical items serve as the advancement mechanic for Don’t Dream, and can do things like increase stats, add new moves, or provide new resources of reality, bonds, or health.

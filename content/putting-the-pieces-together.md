@@ -3,6 +3,7 @@ title: Putting the pieces together
 rules_page: 10
 prev: 9
 next: 11
+pdf_order: 10
 ---
 
 Each mysery the investigators confront will have a selection of questions and dangers that they must confront to put it to bed. The meat of the game is gathering clues towards the resolution of these questions.

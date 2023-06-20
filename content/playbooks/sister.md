@@ -1,5 +1,6 @@
 ---
 title: The Sister
+pdf_order: 25
 ---
 
 _Close relative or friend of an honest-to-God monster._

@@ -3,6 +3,7 @@ title: Difficulty
 rules_page: 8
 prev: 7
 next: 9
+pdf_order: 8
 ---
 
 Mysteries in Don’t Dream has a difficulty number to indicate how challenging they are.

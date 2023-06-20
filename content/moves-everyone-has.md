@@ -3,6 +3,7 @@ title: The moves everyone has
 rules_page: 9
 prev: 8
 next: 10
+pdf_order: 9
 ---
 
 ## Form a Bond

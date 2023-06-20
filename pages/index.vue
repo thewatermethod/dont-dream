@@ -10,6 +10,12 @@
                     <li>
                         <NuxtLink to="/srd">Rules</NuxtLink>
                     </li>
+
+                    <li>
+                        <a href="/dont-dream-pdf-alpha-0.1.pdf" download>PDF</a>
+                    </li>
+
+
                     <!-- <li>
                         <NuxtLink to="/account">Login</NuxtLink>
                     </li> -->
@@ -138,6 +144,7 @@ main {
     background: whitesmoke;
     border-radius: 6px;
     color: #333;
+    font-size: 1em;
     padding: 0.5rem 1rem;
 }
 

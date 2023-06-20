@@ -1,5 +1,6 @@
 ---
 title: The Two-in-One
+pdf_order: 26
 ---
 
 _A crime solving duo, just past their prime_

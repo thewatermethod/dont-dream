@@ -3,6 +3,7 @@ title: Abilities
 rules_page: 2
 prev: 1
 next: 3
+pdf_order: 2
 ---
 
 Abilities are the attributes that are applied to most die rolls in the game. They each have a modifier from -3 to +3. The abilities are: Body, Composure, Library Use, Force of Will, Affect, and Power.

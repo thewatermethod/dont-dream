@@ -1,5 +1,6 @@
 ---
 title: The Ice Cream Man
+pdf_order: 24
 ---
 
 _Carefree, improviser, king of the road_

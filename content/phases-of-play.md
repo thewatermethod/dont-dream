@@ -3,6 +3,7 @@ title: Phases of play
 prev: 12
 rules_page: 13
 next: 14
+pdf_order: 13
 ---
 
 ## Downtime

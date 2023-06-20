@@ -1,5 +1,6 @@
 ---
 title: The Gobbos
+pdf_order: 30
 ---
 
 Difficulty 4

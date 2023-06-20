@@ -1,5 +1,6 @@
 ---
 title: The Cunning
+pdf_order: 20
 ---
 
 _A magician, hippie, crustpunk, traveler._

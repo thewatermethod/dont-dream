@@ -3,6 +3,7 @@ title: Bonds
 rules_page: 4
 prev: 3
 next: 5
+pdf_order: 4
 ---
 
 Bonds are another core resource in Don’t Dream. They represent relationships that an investigator has with a character in the town where the magic is happening. Like real life relationships, these bonds can offer important support to the investigators, but they need to be nurtured to be productive.

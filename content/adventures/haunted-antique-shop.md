@@ -1,5 +1,6 @@
 ---
 title: Haunted Antique Shop
+pdf_order: 31
 ---
 
 Difficulty 6 / Danger 3

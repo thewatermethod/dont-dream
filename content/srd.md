@@ -2,6 +2,7 @@
 title: The basics
 rules_page: 1
 next: 2
+pdf_order: 1
 ---
 
 _Times are tough in **Coffin's Mill**. They say this place is cursed. Every week, the streets are stained with some new tragedy._
