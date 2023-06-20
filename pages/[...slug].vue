@@ -12,15 +12,16 @@
         <ContentQuery v-if="doc.next" :path="`/`" :where="{ rules_page: doc.next }" v-slot="{ data }">
           <RulesNav v-for="page in data" :key="page.id" :doc="page" :className="`rules-next`" />
         </ContentQuery>
+
+        <NuxtLink v-if="!doc.next" to="/playbooks" className="rules-next">Playbooks</NuxtLink>
       </div>
     </ContentDoc>
   </div>
 </template>
 
-
-<style scoped>
-h2 a,
-h3 a {
+<style>
+.content h2 a,
+.content h3 a {
   color: inherit;
 }
 

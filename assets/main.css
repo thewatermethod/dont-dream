@@ -76,3 +76,9 @@ a:hover,
 a:visited:hover {
   color: darkred;
 }
+
+a[aria-current="page"] {
+  background: lightgray;
+  color: darkred;
+  text-decoration: dashed;
+}

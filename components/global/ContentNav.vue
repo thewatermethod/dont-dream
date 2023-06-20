@@ -17,6 +17,8 @@ const contents = await queryContent(props.path)
             _path: { $ne: props.path },
         }
     ).find();
+
+contents.sort((a, b) => a.pdf_order - b.pdf_order);
 </script>
 
 <style scoped>

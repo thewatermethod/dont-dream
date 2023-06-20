@@ -2,7 +2,6 @@
 title: Keeper Moves
 prev: 16
 rules_page: 17
-next: 18
 pdf_order: 17
 ---
 

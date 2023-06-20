@@ -1,18 +1,16 @@
 <template>
-    <div class="component-container">
+    <div :class="`component-container ${animationsOn ? 'animations-on' : ''}`">
+        <button @click="toggleMenu" :class="`menu-toggle ${!menuOpen ? 'menu-closed' : ''}`">
+            <img src="~/assets/arrow.svg" alt="toggle menu" height="40" width="40" />
+        </button>
         <aside>
             <div>
-                <button @click="toggleMenu" :class="`menu-toggle ${!menuOpen ? 'menu-closed' : ''}`">
-                    <img src="~/assets/arrow.svg" alt="toggle menu" height="40" width="40" />
-                </button>
                 <Transition>
                     <nav v-if="menuOpen">
                         <ul>
                             <li>
-                                <div class="menu-item-toggle">
-                                    <NuxtLink to="/srd">
-                                        Rules
-                                    </NuxtLink>
+                                <div>
+                                    Rules
                                 </div>
                                 <ul>
                                     <li v-for="rule in rules">
@@ -22,12 +20,9 @@
                             </li>
                             <hr />
                             <li>
-                                <div class="menu-item-toggle">
-                                    <NuxtLink to="/playbooks">
-                                        Playbooks
-                                    </NuxtLink>
-
-                                </div>
+                                <NuxtLink to="/playbooks">
+                                    Playbooks
+                                </NuxtLink>
                                 <ContentNav path="/playbooks" />
                             </li>
 
@@ -65,11 +60,21 @@
 </template>
 
 <script setup lang="ts">
+const animationsOn = ref(false);
 const menuOpen = ref(true);
 
 function toggleMenu() {
     menuOpen.value = !menuOpen.value;
 }
+
+onMounted(() => {
+    const active = document.querySelector('.router-link-active.router-link-exact-active');
+    if (active) {
+        active.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    animationsOn.value = true;
+})
 
 // we need to get all the "rulebook" content
 const rules = await queryContent()
@@ -82,8 +87,6 @@ const rules = await queryContent()
 // sort it by the key we provide
 rules.sort((a, b) => a.rules_page - b.rules_page);
 
-
-
 </script>
 
 <style scoped>
@@ -93,45 +96,37 @@ rules.sort((a, b) => a.rules_page - b.rules_page);
 
 .menu-toggle {
     border-radius: 1.5rem;
-
-    top: 150px;
-    z-index: 1;
-
-    animation: button-rotator-reverse 0.5s ease-in-out forwards;
+    display: none;
+    top: 10px;
+    z-index: 3;
     position: fixed;
+}
+
+.animations-on .menu-toggle {
+    animation: button-rotator-reverse-mobile 0.5s ease-in-out forwards;
+    display: inline;
+}
+
+.animations-on .menu-toggle.menu-closed {
+    animation: button-rotator-mobile 0.5s ease-in-out forwards;
 }
 
 .menu-toggle img {
     filter: invert(1);
 }
 
-.menu-toggle.menu-closed {
-    animation: button-rotator 0.5s ease-in-out forwards;
+@media(min-width: 768px) {
+    .animations-on .menu-toggle {
+        animation: button-rotator-reverse 0.5s ease-in-out forwards;
+        top: 150px;
+    }
+
+    .animations-on .menu-toggle.menu-closed {
+        animation: button-rotator 0.5s ease-in-out forwards;
+    }
+
 }
 
-@keyframes button-rotator-reverse {
-    0% {
-        left: 0;
-        transform: rotate(180deg);
-    }
-
-    100% {
-        left: 230px;
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes button-rotator {
-    0% {
-        left: 230px;
-        transform: rotate(0deg);
-    }
-
-    100% {
-        left: 0;
-        transform: rotate(180deg);
-    }
-}
 
 aside {
     padding: 1rem;
@@ -178,13 +173,6 @@ li>ul li {
     margin: 0 0.5rem;
 }
 
-a,
-a:visited {
-    color: darkblue;
-}
-
-
-
 /* we will explain what these classes do next! */
 .v-enter-active,
 .v-leave-active {
@@ -194,6 +182,58 @@ a:visited {
 .v-enter-from,
 .v-leave-to {
     animation: slide-out 0.5s ease-in-out forwards;
+}
+
+/**
+animations
+
+*/
+@keyframes button-rotator-reverse {
+    0% {
+        left: 0;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        left: 230px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes button-rotator-reverse-mobile {
+    0% {
+        right: 10px;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        right: 10px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes button-rotator {
+    0% {
+        left: 230px;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        left: 0;
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes button-rotator-mobile {
+    0% {
+        right: 10px;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        right: 10px;
+        transform: rotate(180deg);
+    }
 }
 
 @keyframes slide-in {

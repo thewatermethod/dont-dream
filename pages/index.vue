@@ -75,13 +75,23 @@ main {
 }
 
 .splash {
-    display: flex;
-    max-height: 100vh;
+
+
     overflow: hidden;
     place-items: center;
     position: relative;
     width: 100vw;
+
+    height: 100vh;
+    height: 100dvh;
 }
+
+@media(min-width: 768px) {
+    .splash {
+        display: flex;
+    }
+}
+
 
 .bloody {
     color: tomato;
@@ -90,6 +100,12 @@ main {
     place-content: center;
     text-align: center;
 }
+
+/* @media(min-width: 768px) {
+    .bloody {
+        flex-direction: row;
+    }
+} */
 
 .bloody h1 {
     --width: 100vw;
@@ -127,16 +143,23 @@ main {
     }
 }
 
+
+@media(min-width: 768px) {
+    .splash-menu ul {
+        gap: 0.5em;
+        left: 25%;
+        position: absolute;
+        top: 50%;
+    }
+
+}
+
 .splash-menu ul {
+    align-items: center;
+    justify-content: center;
     display: flex;
-    gap: 0.5em;
-    left: 0;
-    left: 25%;
+    gap: 1em;
     list-style: none;
-    place-items: center;
-    position: absolute;
-    top: 50%;
-    width: 100vw;
     z-index: 0;
 }
 

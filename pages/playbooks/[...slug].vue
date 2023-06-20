@@ -11,6 +11,10 @@
                     <ContentRenderer :value="move" />
                 </div>
             </ContentQuery>
+            <div v-if="doc._path === '/playbooks/unseen'" class="rules-nav">
+                <hr />
+                <NuxtLink class="rules-next" to="/adventures">Sample adventures</NuxtLink>
+            </div>
         </ContentDoc>
     </div>
 </template>
