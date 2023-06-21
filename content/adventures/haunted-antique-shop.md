@@ -3,7 +3,8 @@ title: Haunted Antique Shop
 pdf_order: 31
 ---
 
-Difficulty 6 / Danger 3
+Difficulty 3
+_(6 clues to solve)_
 
 ## Establishing questions
 

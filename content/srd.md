@@ -5,7 +5,7 @@ next: 2
 pdf_order: 1
 ---
 
-_Times are tough in **Coffin's Mill**. They say this place is cursed. Every week, the streets are stained with some new tragedy._
+_Times are tough in **Coffin's Mill**. They say this place is cursed._
 
 _You’ve landed here for your own reasons. A group of outsiders, each with secrets of your own. Somehow it’s fallen to you to investigate the killings that haunt this place._
 
