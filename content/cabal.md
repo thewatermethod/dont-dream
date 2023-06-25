@@ -24,7 +24,7 @@ The Keeper must answer the following questions:
 The Dark History is revealed. Feel free to use these as cabal clues, or write your own dark history of Coffin's Mill.
 
 - 1818 / Thaddeus Coffin arrives with his fortune and builds the first mills in Coffin's Mill. He sacrifices the first of many souls to the dark god Moloch, the Titan to whom he owes his many successes.
-- 1825 / Coffin, now in his seventies, has become a recluse. He rarely makes public appearances,
+- 1825 / Coffin, now in his seventies, has become a recluse. He rarely makes public appearances, and the death of his third wife has set the town against him.
 - 1836 / A series of mill strikes lead Coffin to call in the state troopers and the national guard to spur production back into action. Things turn violent when a misplaced rock causes the national guard to open fire into the crowd. After this, Coffin retires from public life entirely, selling his mills to a Boston firm. Curiously, there are no records of his death.
 - 1931 / An movie adaptation of Booth Tarkington’s novel The Turmoil being filmed in the old Coffin estate turns sour when a mass murder takes place during a party. A bit player named Blythe Jennings, apparently spurned by the lead actor William Gold, donned a cloak and glove adorned with knives and killed them all.
 - 1940 / The Coffin estate is turned at great expense into a luxury hotel. It lasts one season before the winter caretaker, a writer from Maine, murders his family and burns much of the place down.
@@ -78,7 +78,7 @@ Vengeful ghosts of those that have died at the hands of the Cabal, during the my
 
 The Keeper should attempt to finalize the answers to the questions asked in previous Cabal scenes.
 
-## Level 5 - The Cabin in the Woods
+## Level 5 - The Lonely Cabin
 
 Unlock level 5 of the Cabal when the investigators would obtain their 9th cabal clue.
 

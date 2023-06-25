@@ -65,7 +65,7 @@ Paint the scene: There is a strange antique tool that looks like it can perform 
 - (Cabal clue) A jet black mirror that seems to be whispering
 - (Cabal clue) A painting of one of the investigator’s in 17th century clothes
 - (Cabal clue) A vine grows alongside that shed that has the smell and consistency of human flesh
-  -(Cabal clue) The name of the Emissary, if unlocked, written down on a piece of paper
+- (Cabal clue) The name of the Emissary, if unlocked, written down on a piece of paper
 
 ## Magical Items
 
