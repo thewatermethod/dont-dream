@@ -9,9 +9,5 @@
   Basic-Auth = "baby:iambaby daddy:iamdaddy"
 
 [[plugins]]
-  package = "dont-dream-forknetlify-plugin-generate-pdf"
+  package = "/plugins/build-plugin-pdf"
 
-  [plugins.inputs]
-  # It has to begin with http
-  url="http://dontdreamrpg.com/pdf"
-  fileName="bevilacqua-dont-dream-alpha.pdf"
