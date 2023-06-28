@@ -121,6 +121,7 @@ export const onPostBuild = async function ({
 
     const pdf = await page.pdf({
       format: 'A4',
+      margin: { top: '2cm', right: '2cm', bottom: '2cm', left: '2cm' },
     })
 
     fs.writeFile(PUBLISH_DIR + '/bevilacqua-dont-dream-alpha.pdf', pdf, () => {
