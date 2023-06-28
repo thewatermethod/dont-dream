@@ -1,6 +1,5 @@
 /* eslint-disable node/no-unsupported-features/es-syntax */
 import fs from 'fs'
-import chromium from 'chrome-aws-lambda'
 import puppeteer from 'puppeteer'
 
 // This is the main file for the Netlify Build plugin {{name}}.
@@ -109,16 +108,7 @@ export const onSuccess = async function ({
   utils: { build, status },
 }) {
   try {
-    console.log({
-      exe: await chromium.executablePath,
-      args: chromium.args,
-    })
-
-    const browser = await puppeteer.launch({
-      args: chromium.args,
-      executablePath: await chromium.executablePath,
-      headless: chromium.headless,
-    })
+    const browser = await puppeteer.launch({ headless: true })
 
     const page = await browser.newPage()
 
