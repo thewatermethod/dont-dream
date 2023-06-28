@@ -109,6 +109,11 @@ export const onSuccess = async function ({
   utils: { build, status },
 }) {
   try {
+    console.log({
+      exe: await chromium.executablePath,
+      args: chromium.args,
+    })
+
     const browser = await puppeteer.launch({
       args: chromium.args,
       executablePath: await chromium.executablePath,
