@@ -12,7 +12,7 @@
 
         <div class="form-group">
             <label for="reality">Reality</label>
-            <input type="number" name="reality" id="reality" min="0" v-model="sanity">
+            <input type="number" name="reality" id="reality" min="0" v-model="reality">
         </div>
 
         <div class="form-group" id="bonds">
@@ -42,7 +42,7 @@
 <script setup lang="ts">
 
 const health = ref(3);
-const sanity = ref(3);
+const reality = ref(3);
 const playbook = ref('');
 
 
