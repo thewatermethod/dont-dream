@@ -103,7 +103,7 @@ export const onBuild = function () {}
 export const onPostBuild = function () {}
 
 // Runs on build success */
-export const onSuccess = async function ({
+export const onPostBuild = async function ({
   constants: { PUBLISH_DIR },
   utils: { build, status },
 }) {
