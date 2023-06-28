@@ -13,5 +13,5 @@
 
   [plugins.inputs]
   # It has to begin with http
-  url="https://dontdreamrpg.com/rpg"
+  url="http://dontdreamrpg.com/pdf"
   fileName="bevilacqua-dont-dream-alpha.pdf"
