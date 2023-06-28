@@ -107,10 +107,11 @@ export const onSuccess = async function ({
   constants: { PUBLISH_DIR },
   utils: { build, status },
 }) {
-  console.log({ chromePage: process.env.CHROME_PATH })
-
   try {
-    const browser = await puppeteer.launch({ headless: true })
+    const browser = await puppeteer.launch({
+      headless: true,
+      executablePath: process.env.CHROME_PATH,
+    })
 
     const page = await browser.newPage()
 
@@ -129,7 +130,7 @@ export const onSuccess = async function ({
     await browser.close()
   } catch (error) {
     // Report a user error
-    build.failBuild('Failed to generate PDF', { error })
+    build.failPlugin('Failed to generate PDF', { error })
   }
 
   status.show({ summary: 'PDF generated successfully!' })
