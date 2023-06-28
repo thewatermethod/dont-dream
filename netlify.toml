@@ -14,4 +14,4 @@
   [plugins.inputs]
   # It has to begin with http
   url="https://dontdreamrpg.com/rpg"
-  filename="bevilacqua-dont-dream-alpha.pdf"
+  fileName="bevilacqua-dont-dream-alpha.pdf"
