@@ -16,6 +16,8 @@ The Keeper introduces a new mystery. Investigators may investigate up to 2 myste
 
 The investigator with the least reality points (using bond quality points as a tiebreaker) will answer the mystery’s first blood questions and together, the investigators and the Keeper help set the scene.
 
+After the scene is set and the first blood questions are answered, the Keeper should feel free to share the specific problems the investigators are trying to solve (the "pieces" of the mystery).
+
 ## Investigation
 
 During the investigation scene, each investigator will have a chance to investigate the murder and uncover the town’s dark secrets. Proceed around the table so that each investigator has a turn in the spotlight. The investigation phase continues unless the investigators are ready to put the pieces together.

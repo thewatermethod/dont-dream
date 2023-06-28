@@ -30,7 +30,7 @@ When the players unlock a cabal clue:
 
 - Reveal the presence of the emissary
 - Change something fundamental about the town with no explanation
-  -Turn up some piece of the town’s secret history
+- Turn up some piece of the town’s secret history
 
 When making an emissary move
 

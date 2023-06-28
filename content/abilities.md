@@ -14,7 +14,7 @@ An investigator rolls with BODY if the action involves a contest of strength, a 
 
 ## Composure
 
-An investigator rolls with COMPOSURE if they are trying to do something that requires intense concentration, a steady hand, or nerves of steel
+An investigator rolls with COMPOSURE if they are trying to do something that requires intense concentration, a steady hand, or nerves of steel.
 
 ## Library Use
 

@@ -21,12 +21,12 @@ The Keeper must answer the following questions:
 
 ## Level 2 - The Dark History of Coffin's Mill
 
-The Dark History is revealed. Feel free to use these as cabal clues, or write your own dark history of Coffin's Mill.
+The Dark History is revealed. Feel free to express these as cabal clues, or write your own dark history of Coffin's Mill.
 
 - 1818 / Thaddeus Coffin arrives with his fortune and builds the first mills in Coffin's Mill. He sacrifices the first of many souls to the dark god Moloch, the Titan to whom he owes his many successes.
-- 1825 / Coffin, now in his seventies, has become a recluse. He rarely makes public appearances, and the death of his third wife has set the town against him.
+- 1825 / Coffin, now in his seventies, has become a recluse. He rarely makes public appearances, and the death of his third wife, again in mysterious circumstances, has set the rumor mills of the town against him.
 - 1836 / A series of mill strikes lead Coffin to call in the state troopers and the national guard to spur production back into action. Things turn violent when a misplaced rock causes the national guard to open fire into the crowd. After this, Coffin retires from public life entirely, selling his mills to a Boston firm. Curiously, there are no records of his death.
-- 1931 / An movie adaptation of Booth Tarkington’s novel The Turmoil being filmed in the old Coffin estate turns sour when a mass murder takes place during a party. A bit player named Blythe Jennings, apparently spurned by the lead actor William Gold, donned a cloak and glove adorned with knives and killed them all.
+- 1931 / An movie adaptation of Booth Tarkington’s novel _The Turmoil_ being filmed in the old Coffin estate turns sour when a mass murder takes place during a party. A bit player named Blythe Jennings, apparently spurned by the lead actor William Gold, donned a cloak and glove adorned with knives and killed them all.
 - 1940 / The Coffin estate is turned at great expense into a luxury hotel. It lasts one season before the winter caretaker, a writer from Maine, murders his family and burns much of the place down.
 - 1944 / The Coffin estate is bulldozed and turned into a summer camp. It is continually open and shut throughout the next thirty years as strange and sometimes deadly incidents continuously occur.
 - 1958 / The Coffin Toy Company (later renamed CTC Toys) is formed. Their flagship item, the Bawlin’ Billy is i mmediately popular. There are a rash of complaints when several Billy’s are opened and shown to contain strange occult symbols carved into the plastic interiors. The company denies any knowledge of how this could have happened.
@@ -41,7 +41,7 @@ The Keeper must answer the following questions, and revise their answers to any 
 
 ## Level 3 - The Nightmaster Cometh!
 
-Unlock level 3 of the Cabal when the investigators would obtain their 5th cabal clue
+Unlock level 3 of the Cabal after the investigators obtain their 5th cabal clue
 
 The Cabal unleash the avatar of nightmares on the town in a bid to stop the investigators from reaching the truth.
 
@@ -80,7 +80,7 @@ The Keeper should attempt to finalize the answers to the questions asked in prev
 
 ## Level 5 - The Lonely Cabin
 
-Unlock level 5 of the Cabal when the investigators would obtain their 9th cabal clue.
+Unlock level 5 of the Cabal when the investigators obtain their 9th cabal clue.
 
 The secret history of Coffin's Mill comes down to a cabin in the woods. At this point, there are no more individual mysteries and all the remaining efforts of the investigators are put towards unraveling the final truths of the Cabal. Using the answers to the questions asked in the previous cabal scenes, the Keeper should direct the players to the Cabin in the Woods, where they can unlock the awful truth about the town and either save it or meet their doom.
 

@@ -82,3 +82,7 @@ a[aria-current="page"] {
   color: darkred;
   text-decoration: dashed;
 }
+
+.playbook-move h3 {
+  font-family: "VallejoSerifBlack";
+}

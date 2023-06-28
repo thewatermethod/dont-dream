@@ -6,7 +6,7 @@
             <h2>Moves</h2>
             <ContentQuery v-if="doc._path !== '/playbooks'" v-slot="{ data }"
                 :path="`${doc._path.replace('playbooks', 'moves')}`">
-                <div v-for="move in data">
+                <div v-for="move in data" class="playbook-move">
                     <h3> {{ move.title }}</h3>
                     <ContentRenderer :value="move" />
                 </div>

@@ -10,11 +10,11 @@ Each mysery the investigators confront will have a selection of questions and da
 
 ## Putting the Pieces Together
 
-When the investigators have an open discussion about the mystery, and they've earned clues equal to twice mystery's difficulty, the Keeper should prompt them with this move.
+When the investigators feel ready, and they've earned clues equal to twice mystery's difficulty, the Keeper should prompt them with this move.
 
 Unlike the other rolls and mechanics of this game, it is resolved as a group and should be approached almost like a negotiation.
 
-Once the investigators have decided on an answer to the mystery's core question ("where is the killer?," for example) they need to build their pool of points.
+Once the investigators have decided on an answer to the mystery's core question ("where is the killer?," for example) they need to build their dice pool.
 
 ### Building the pool
 
@@ -24,10 +24,11 @@ Once the investigators have decided on an answer to the mystery's core question 
 
 ### The roll
 
-Each investigator than rolls their pool. Every die equal to or over the mystery's difficulty is a success.
-Then, starting with the investigator who discovered the most clues, the mystery's puzzle pieces are purchased by spending those successes.
+Each investigator than rolls their dice pool. Every die equal to or over the mystery's difficulty is a success.
 
-Most mysteries will have items in **bold** that must be chosen first. They can be chosen in any order. The rotation continues until a player has run out of clues. At that point, all remaining clues are lost.
+Then, starting with the investigator who discovered the most clues (not who rolled the most successes), the mystery's puzzle pieces are purchased by spending those successes.
+
+Most mysteries will have items in **bold** that must be chosen first. They can be chosen in any order. The rotation continues until a player has run out of successes.
 
 For example, the pieces for "[Sleepover Murder Party](/adventures/sleepover-murder-party)", the introductory adventure in this book are reproduced below.
 
