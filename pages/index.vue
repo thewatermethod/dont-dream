@@ -12,7 +12,7 @@
                     </li>
 
                     <li>
-                        <a href="/dont-dream-pdf-alpha-0.1.pdf" download>PDF</a>
+                        <a href="/bevilacqua-dont-dream-alpha.pdf" download>PDF</a>
                     </li>
 
 
