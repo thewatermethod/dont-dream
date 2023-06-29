@@ -73,9 +73,5 @@
     "environmentVariables": {
       "FORCE_COLOR": "1"
     }
-  },
-  "dependencies": {
-    "chrome-aws-lambda": "^10.1.0",
-    "puppeteer": "^20.7.3"
   }
 }
