@@ -86,3 +86,7 @@ a[aria-current="page"] {
 .playbook-move h3 {
   font-family: "VallejoSerifBlack";
 }
+
+.no-margin {
+  margin: 0;
+}

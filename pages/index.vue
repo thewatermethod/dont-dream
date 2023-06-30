@@ -12,8 +12,12 @@
                     </li>
 
                     <li>
-                        <a href="/bevilacqua-dont-dream-alpha.pdf" download>PDF</a>
+                        <a href="/bevilacqua-dont-dream-alpha.pdf">PDF</a>
                     </li>
+
+                    <!-- <li>
+                        <NuxtLink to="/sheet">Character Sheet</NuxtLink>
+                    </li> -->
 
 
                     <!-- <li>
@@ -147,7 +151,7 @@ main {
 @media(min-width: 768px) {
     .splash-menu ul {
         gap: 0.5em;
-        left: 25%;
+        left: 15%;
         position: absolute;
         top: 50%;
     }
