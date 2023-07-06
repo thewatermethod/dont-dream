@@ -102,11 +102,11 @@
             </select>
         </div>
 
-        <ContentQuery v-if="showDetails && playbook" v-slot="{ data }" :path="playbook">
-            <div class="explainer span-4" v-for="doc in data" :key="doc._id">
-                <ContentRenderer :value="doc" />
-            </div>
-        </ContentQuery>
+
+        <div class="explainer span-4" v-if="playbookDetails">
+            <ContentRenderer :value="playbookDetails" />
+        </div>
+
 
         <ContentQuery v-if="playbook" :path="`/moves${playbook.replace('/playbooks', '')}`" v-slot="{ data }">
             <h2 class="span-4 no-margin">Moves (choose 2)</h2>
@@ -121,6 +121,8 @@
 </template>
 
 <script setup lang="ts">
+import { ParsedContent } from '@nuxt/content/dist/runtime/types';
+
 
 useHead({
     title: 'Character Sheet | Don\'t Dream',
@@ -134,6 +136,8 @@ const composure = ref(0);
 const libraryUse = ref(0);
 const affect = ref(0);
 const selectedMoves = ref([]);
+const playbookDetails = ref();
+
 
 const attributes = [
     {
@@ -254,6 +258,12 @@ function importCharacter(e: Event) {
 
 const pbOptions = (await queryContent('/playbooks').find()).filter((p) => p._path !== '/playbooks');
 
+watchEffect(async () => {
+    if (playbook.value) {
+        playbookDetails.value = await queryContent(playbook.value).findOne()
+
+    }
+});
 
 
 </script>
