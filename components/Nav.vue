@@ -41,6 +41,12 @@
                                 </NuxtLink>
                             </li>
 
+                            <li>
+                                <NuxtLink to="/sheet">
+                                    Character sheet
+                                </NuxtLink>
+                            </li>
+
                             <!-- <li>
                                 <NuxtLink to="/game/new">Create a game</NuxtLink>
                             </li>

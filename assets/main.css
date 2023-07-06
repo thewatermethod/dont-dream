@@ -83,10 +83,28 @@ a[aria-current="page"] {
   text-decoration: dashed;
 }
 
-.playbook-move h3 {
-  font-family: "VallejoSerifBlack";
-}
+/**
+ * general styles & component helpers
+ */
 
 .no-margin {
   margin: 0;
+}
+
+.striped-content > div {
+  padding: 0.5rem 1rem;
+}
+
+.striped-content > div:nth-of-type(even) {
+  background: #ffffed;
+}
+
+.bordered {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.playbook-move h3 {
+  font-family: "VallejoSerifBlack";
 }

@@ -10,8 +10,8 @@ pdf_order: 9
 
 _When you make an honest connection with a member of the community, name a detail about this bond. Roll + AFFECT._
 
-- On a 10+, you form a bond. Mark one quality point with your new bond.
-- On a 7-9, you form a bond. Mark one quality point. Choose one: you make your new bond uneasy, or they make you uneasy.
+- On a 10+, you form or nurture a bond. Mark one quality point with the bond.
+- On a 7-9, you form or nurture a bond. Mark one quality point. Choose one: you make your new bond uneasy, or they make you uneasy.
 - On a 12+, you may mark two quality points.
 
 ## Harm’s Way

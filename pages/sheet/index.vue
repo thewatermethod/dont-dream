@@ -1,18 +1,18 @@
 <template>
     <form id="character-sheet" :class="`sheet ${showDetails ? 'show-details' : ''}`">
-        <div>
-            <div v-if="showFileUpload">
+        <div v-if="showFileUpload">
+            <div>
                 <label for="import-file">Upload</label>
                 <input type="file" id="import-file" name="import-file" @change="importCharacter" />
             </div>
             <button type="button" @click="openFileUploader">Import</button>
             <button type="button" @click="exportCharacter">Export</button>
         </div>
-        <div id="show-details">
+        <!-- <div id="show-details" class="span-4">
             <input type="checkbox" id="details" name="details" v-model="showDetails" />
             <label for="details">Show details</label>
-        </div>
-        <div class="form-group" id="character-name">
+        </div> -->
+        <div class="form-group span-2" id="character-name">
             <label for="name">Character name</label>
             <input type="text" name="name" id="name" v-model="name">
         </div>
@@ -29,6 +29,10 @@
 
         <div class="form-group span-2" id="attributes">
             <h2>Attributes</h2>
+            <p class="explainer">To start, choose one ability score to be at 2, one ability score to be at 1 and another to
+                be -1. The
+                others start at
+                +0.</p>
             <div v-for="attribute in attributes" class="attribute">
                 <label :for="attribute.htmlId">
                     {{ attribute.label }}
@@ -38,39 +42,48 @@
             </div>
         </div>
 
-        <div class="span-2 ability-explainer">
-            <h2 v-if="showDetails">What do these mean?</h2>
-            <p class="explainer">An investigator rolls with BODY if the action involves a contest of strength, a feat of
+
+        <div class="span-2 callout-box">
+            <h2>What do these mean?</h2>
+            <p>An investigator rolls with BODY if the action involves a contest of strength, a feat of
                 athleticism, or a particularly dextrous or physically challenging maneuver.</p>
-            <p class="explainer">An investigator rolls with COMPOSURE if they are trying to do something that requires
+            <p>An investigator rolls with COMPOSURE if they are trying to do something that requires
                 intense concentration, a steady hand, or nerves of steel.</p>
-            <p class="explainer">An investigator rolls with LIBRARY USE if they are looking to do research in a book or
+            <p>An investigator rolls with LIBRARY USE if they are looking to do research in a book or
                 computer, analyze some evidence, or turn up an unlikely fact.</p>
-            <p class="explainer">An investigator rolls AFFECT if they are trying to charm, intimidate, or entertain.</p>
-            <p class="explainer">An investigator rolls POWER if the action involves using or understanding supernatural
+            <p>An investigator rolls AFFECT if they are trying to charm, intimidate, or entertain.</p>
+            <p>An investigator rolls POWER if the action involves using or understanding supernatural
                 forces or the occult. A keeper can always override the use of any other ability to call for a power roll
                 instead.</p>
         </div>
 
-        <div class="form-group" id="bonds">
+        <div class="form-group span-2" id="bonds">
             <h2>Bonds</h2>
             <p class="explainer">Investigators form bonds with people, places, and other investigators. Bonds have
                 between 1 and 3 quality
                 points, depending on how powerful the connection is.</p>
-            <div class="bond" v-for="(bond, index) in bonds" :key="index">
-                <label class="sr-only" :for="`bond_${index}`">Bond</label>
-                <input type="text" :name="`bond_${index}`" v-model="bond.name" :id="`bond_${index}`">
-                <label class="sr-only" :for="`bond_qp_${index}`">Quality points</label>
-                <input type="number" :name="`bond_qp_${index}`" v-model="bond.qp" :id="`bond_qp_${index}`" min="0" max="3">
+            <p class="explainer">You start with three points, divided between one bond to a character in town and one to
+                another Player Character.</p>
+            <div class="bordered bond" v-for="(bond, index) in bonds" :key="index">
+                <div class="form-group">
+                    <label :for="`bond_${index}`">Bond</label>
+                    <input type="text" :name="`bond_${index}`" v-model="bond.name" :id="`bond_${index}`">
+                </div>
+                <div class="form-group">
+                    <label :for="`bond_qp_${index}`">Quality points</label>
+                    <input type="number" :name="`bond_qp_${index}`" v-model="bond.qp" :id="`bond_qp_${index}`" min="0"
+                        max="3">
+                </div>
                 <button type="button" @click="() => removeBond(index)">[x]</button>
             </div>
             <button @click="appendBond" type="button">+ Bond</button>
         </div>
 
-        <div class="form-group" id="vice-group">
-            <h2><label for="vice">Vice</label></h2>
+        <div class="form-group span-2" id="vice-group">
+            <h2>Vice</h2>
             <p class="explainer">Investigators have a vice they can indulge during downtime in order to regain points in its
-                governing vice.</p>
+                governing vice. A vice feeds a particular attribute.</p>
+            <label for="vice">Describe your vice</label>
             <input type="text" id="vice" name="vice" v-model="vice" />
             <label for="vice_attribute">Vice attribute</label>
             <select id="vice_attribute" name="vice_attribute" v-model="viceAttribute">
@@ -79,7 +92,7 @@
             </select>
         </div>
 
-        <div class="form-group" id="playbook-group">
+        <div class="form-group span-4" id="playbook-group">
             <h2>Playbook</h2>
             <label for="playbook">Choose a playbook</label>
             <select id="playbook" name="playbook" v-model="playbook" @change="resetMoves">
@@ -89,18 +102,17 @@
             </select>
         </div>
 
-        <ContentQuery v-if="showDetails" v-slot="{ data }" :path="playbook">
+        <ContentQuery v-if="showDetails && playbook" v-slot="{ data }" :path="playbook">
             <div class="explainer span-4" v-for="doc in data" :key="doc._id">
                 <ContentRenderer :value="doc" />
             </div>
         </ContentQuery>
 
-
         <ContentQuery v-if="playbook" :path="`/moves${playbook.replace('/playbooks', '')}`" v-slot="{ data }">
             <h2 class="span-4 no-margin">Moves (choose 2)</h2>
             <div class="form-group span-4 form-group--playbook__move" v-for="doc in data" :key="doc._id">
                 <h3 class="no-margin">{{ doc.title }}</h3>
-                <ContentRenderer v-if="showDetails" :value="doc" />
+                <ContentRenderer :value="doc" />
                 <input :id="doc._dir" :value="doc.title" v-model="selectedMoves" type="checkbox" />
             </div>
         </ContentQuery>
@@ -109,6 +121,11 @@
 </template>
 
 <script setup lang="ts">
+
+useHead({
+    title: 'Character Sheet | Don\'t Dream',
+})
+
 
 const name = ref('');
 const body = ref(0);
@@ -247,7 +264,37 @@ const pbOptions = (await queryContent('/playbooks').find()).filter((p) => p._pat
     --input-padding: 0.5rem;
 }
 
+@media(min-width: 800px) {
+    .sheet {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(4, 25%);
+    }
+}
 
+.sheet {
+    background: white;
+    padding: 1.5rem;
+    position: relative;
+}
+
+/** grid helpers */
+
+.span-2 {
+    grid-column: auto / span 2;
+}
+
+.span-3 {
+    grid-column: auto / span 3;
+}
+
+.span-4 {
+    grid-column: 1 / span 4;
+}
+
+.sheet h2 {
+    font-family: 'VallejoSerifBlack', cursive;
+}
 
 /**
     detailed explanations
@@ -270,24 +317,7 @@ const pbOptions = (await queryContent('/playbooks').find()).filter((p) => p._pat
     margin-bottom: 0.5em;
 }
 
-.sheet {
-    background: white;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 1.5rem;
-    position: relative;
-}
 
-.sheet h2 {
-    font-family: 'VallejoSerifBlack', cursive;
-}
-
-#show-details,
-#playbook-group,
-.span-4 {
-    grid-column: 1 / span 4;
-}
 
 #show-details {
     background: white;
@@ -298,18 +328,7 @@ const pbOptions = (await queryContent('/playbooks').find()).filter((p) => p._pat
     top: 87px;
 }
 
-#character-name,
-#bonds {
-    grid-column: 1 / span 2;
-}
 
-.span-2 {
-    grid-column: auto / span 2;
-}
-
-#vice-group {
-    grid-column: 3 / span 2;
-}
 
 #attributes {
     display: flex;
@@ -319,7 +338,8 @@ const pbOptions = (await queryContent('/playbooks').find()).filter((p) => p._pat
 
 .attribute {
     display: flex;
-    width: clamp(320px, 50%, 600px);
+    margin: 0 auto;
+    width: 95%;
 }
 
 .attribute label {
@@ -389,12 +409,13 @@ const pbOptions = (await queryContent('/playbooks').find()).filter((p) => p._pat
  */
 
 .bond {
-    display: flex;
-    gap: 0.5rem;
+    position: relative;
 }
 
-.bond input[type="text"] {
-    flex: 2;
+.bond button {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 /**
