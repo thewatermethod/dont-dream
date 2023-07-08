@@ -33,6 +33,11 @@ const pages = data.filter((p) => p.pdf_order)
         max-width: 480px;
     }
 
+    .playbook-move,
+    .callout-box {
+        page-break-inside: avoid;
+    }
+
     .layout-grid {
         display: block !important;
     }
