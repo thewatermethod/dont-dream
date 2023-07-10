@@ -8,16 +8,40 @@ pdf_order: 14
 
 As the investigators uncover cabal clues, they advance the meta plot of the game and the saga of Coffin's Mill towards its inevitable end. The Keeper should update the Cabal sheet and play out any scenes or consequences associated with it each time the investigators unlock a new clue or advance a level.
 
+The Cabal mystery works as a counterpart to the individual mysteries that the investigators solve. When solving the individual cases, the Keeper provides clues that the investigators must take and formulate into something coherent.
+
+The solutions that the investigators provide back to the Keeper are then ordered into something new by the Keeper. This may seem like a lot of responsibility, but the Keeper is given plenty of time and guidance. What follows is the basic pattern of uncovering the Cabal. Keepers should feel free to change the setting, names, history, and dark purposes of the Cabal to fit their own preferences, but it's recommended to use the framework below to structure the meta-mystery, even if everything else is discarded.
+
 ## Level 1 - Reveal the Hand of the Cabal
 
-Unlock level 1 of the Cabal when the players would obtain their first cabal clue
+Unlock level 1 of the Cabal when the investigators would obtain their first cabal clue
 
-To be written: A short reading that essentially sets the scene in regards to the bastards in charge of the town.
+The following should be read (or paraphrased) to the investigators during the Elsewhere phase of the session where they encounter their first Cabal clue.
+
+<div class="bordered">
+
+_A dark hand pulls you towards a cavernous mouth. You hear the sound of grinding metal and you smell the stink of machine oil covering rotten food. You awake with a stifled scream. That dream again. It's back. You stand up._
+
+_You are struck with a feeling as you fill a glass with water. Something like deja vu. But not quite - it's the feeling that somewhere, at least one other person is waking from the same dream, getting the same glass of water, even feeling the same way._
+
+_You dismiss the thoughts. Sit back down in bed. And then the brick crashes through your window. You rush over to the window to see who threw it, but what you see makes you react in horror. It isn't the row of hooded figures walking slowly away, nor is it the "leave town" written in blood on the paper wrapping the brick._
+
+_It's the bleak expanse of starless sky, which reminds you of nothing more than the endless mouth of the monster in your dreams, and the certainty that somehow, those figures put that dream inside of you._
+
+</div>
 
 The Keeper must answer the following questions:
 
 - What is the cabal after? What is their goal?
 - Who serves as the Emissary of the cabal in town?
+
+<div class="callout-box">
+
+## The Emissary & The Emissary Moves
+
+Early on, the keeper should pick a member of the community to serve as the Cabal’s emissary. This can be anyone, from a shopkeeper to the mayor to a frequently truant child. Once the characters have unlocked their first Cabal clue, the keeper gains access to the emissary moves ([see Keeper moves](/keeper-moves)).
+
+</div>
 
 ## Level 2 - The Dark History of Coffin's Mill
 
@@ -83,7 +107,3 @@ The Keeper should attempt to finalize the answers to the questions asked in prev
 Unlock level 5 of the Cabal when the investigators obtain their 9th cabal clue.
 
 The secret history of Coffin's Mill comes down to a cabin in the woods. At this point, there are no more individual mysteries and all the remaining efforts of the investigators are put towards unraveling the final truths of the Cabal. Using the answers to the questions asked in the previous cabal scenes, the Keeper should direct the players to the Cabin in the Woods, where they can unlock the awful truth about the town and either save it or meet their doom.
-
-## The Emissary & The Emissary Moves
-
-Early on, the keeper should pick a member of the community to serve as the Cabal’s emissary. This can be anyone, from a shopkeeper to the mayor to a frequently truant child. Once the characters have unlocked their first Cabal clue, the keeper gains access to the emissary moves (see Keeper moves).
