@@ -47,6 +47,19 @@
                                 </NuxtLink>
                             </li>
 
+                            <li>
+                                <NuxtLink to="/bevilacqua-dont-dream-alpha.pdf">
+                                    PDF rules
+                                </NuxtLink>
+                            </li>
+
+                            <li>
+                                <NuxtLink to="/contributing">
+                                    Contributing
+                                </NuxtLink>
+                            </li>
+
+
                             <!-- <li>
                                 <NuxtLink to="/game/new">Create a game</NuxtLink>
                             </li>
