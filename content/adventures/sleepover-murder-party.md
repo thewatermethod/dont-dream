@@ -31,6 +31,7 @@ Described by Claire as a tall man wearing “a full leather body suit”, “Elv
 ### The Stephens House
 
 A well-kept, large suburban home
+
 Paint the scene: What is the unlikely piece of art that hangs in the Stephens’ living room?
 
 ### The Woods
@@ -38,6 +39,18 @@ Paint the scene: What is the unlikely piece of art that hangs in the Stephens’
 The police force are searching the woods outside of Coffin Hill for the killer and evidence thereof.
 
 Paint the scene: What plant or animal is present in the woods completely out of season?
+
+### The abandoned recording studio
+
+The girls liked to hang out here. Visible from the woods, partially overgrown.
+
+Paint the scene: What's playing on the speakers when the investigators enter?
+
+### Timbo's Slices
+
+One of the victim's worked here. About exactly what you expect from a local pizza place. A sign outside offers "Fresh roast beef," but you doubt it.
+
+Paint the scene: One of the handmade ads pasted to the window of the shop unnerves you. Why?
 
 ## Characters
 
@@ -52,6 +65,7 @@ Paint the scene: What plant or animal is present in the woods completely out of 
 - In the Stephens house, there is a bag of stuffed animals sitting by the door, as if they were just packed up to be taken outside.
 - An abandoned telephone repair truck. It seems to have a great deal more hardware than it needs to.
 - A mental patient confined for involvement in an occult ritual that killed a young girl in the late 1960’s has recently escaped nearby.
+- A book on the dangers of rock and roll written by Regina Clarence
 - Half of the record collection in the Stephens house have gone missing.
 - A partially burnt scrap of paper found in the fireplace with a coded message that reads "I wanted you."
 - A camp in the woods, recently abandoned
@@ -59,7 +73,7 @@ Paint the scene: What plant or animal is present in the woods completely out of 
 - A stack of magazines, some Renaissance Faire themed magazines, many others pornographic
 - (Cabal clue) The wall inside the Stephens garage is crawling with thousands of snails.
 - (Cabal clue) Stone in the woods are arranged in a meaningful pattern
-- (Cabal clue) A casio keyboard that plays weirdly detuned sounds that sound like human language
+- (Cabal clue) A casio keyboard that plays weirdly detuned sounds that sound like human language - "I wanted you" or "We're watching you", perhaps
 - (Cabal clue) A notebook with a heart drawn on it and an arrow through it. Inside the heart is written “The Nightmaster” but it disappears as soon as any other investigator or character besides the investigator who found it looks at it.
 
 ## Magical Items
