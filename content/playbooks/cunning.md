@@ -9,6 +9,6 @@ Someone has inducted you in the old ways. Maybe a drifter came through town, or 
 
 <div class="callout-box">
 
-**What old god do you worship and what regular tribute do they demand?**
+**Name the old god you worship, and what tribute they demand.**
 
 </div>

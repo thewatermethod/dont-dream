@@ -11,14 +11,11 @@ You look great in a swimsuit. You look great in makeup. On any given beach, you 
 
 <div class="callout-box">
 
-**What about yourself are you most ashamed of?**
-
-</div>
-
-Choose one
+**Choose one**
 
 - You are a peak physical specimen. Take +1 to rolls involving running, jumping, or climbing.
 - You’ve worked really hard on your body Take +1 to rolls involving charm
 - You cut an imposing figure Take +1 to rolls involving intimidation
+</div>
 
 </div>

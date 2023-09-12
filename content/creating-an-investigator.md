@@ -6,7 +6,7 @@ next: 13
 pdf_order: 12
 ---
 
-- Choose a name and a [playbook](/playbooks). Select two of the playbook moves.
+- Choose a name and a [playbook](/playbooks).
 - Choose one ability score to be at 2, one ability score to be at 1 and another to be -1. The others start at +0.
 - Spend your bond points. You start with three. Assign one bond to a character in town and one to another Player Character.
 - Choose a vice and whether that vice is driven by reality or health.

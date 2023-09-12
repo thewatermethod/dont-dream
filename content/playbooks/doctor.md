@@ -7,9 +7,3 @@ pdf_order: 22
 _A grizzled medical examiner, teacher, doctor, or scientist_
 
 You spent 10 years in medical school for this?
-
-<div class="callout-box">
-
-**What terrible accident do you blame yourself for?**
-
-</div>

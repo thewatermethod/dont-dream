@@ -9,6 +9,6 @@ As long as you remember, the dreams have been present. When you were a child, th
 
 <div class="callout-box">
 
-**Describe and name the once-whimsical recurring character from your childhood that haunts your dreams in a newly nightmarish way.**
+**\*Mr. Flopsy was your best friend during a lonely childhood. Maybe he's changed, or maybe you have, but when he visits you now, it's not the same.**
 
 </div>
