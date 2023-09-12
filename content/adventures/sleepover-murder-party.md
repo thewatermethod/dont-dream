@@ -78,3 +78,4 @@ Paint the scene: What plant or animal is present in the woods completely out of 
 | [1]  | The murderer is captured or killed              |
 | [1]  | All wagered bonds survive                       |
 | [1]  | Unlock a cabal clue                             |
+| [1]  | Unlock a character advancement                  |
