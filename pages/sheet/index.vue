@@ -5,13 +5,10 @@
                 <label for="import-file">Upload</label>
                 <input type="file" id="import-file" name="import-file" @change="importCharacter" />
             </div>
-            <button type="button" @click="openFileUploader">Import</button>
+            <button type="button" :disabled="!readyToImport" @click="completeImport">Import</button>
             <button type="button" @click="exportCharacter">Export</button>
         </div>
-        <!-- <div id="show-details" class="span-4">
-            <input type="checkbox" id="details" name="details" v-model="showDetails" />
-            <label for="details">Show details</label>
-        </div> -->
+
         <div class="form-group span-2" id="character-name">
             <label for="name">Character name</label>
             <input type="text" name="name" id="name" v-model="name">
@@ -109,11 +106,11 @@
 
 
         <ContentQuery v-if="playbook" :path="`/moves${playbook.replace('/playbooks', '')}`" v-slot="{ data }">
-            <h2 class="span-4 no-margin">Moves (choose 2)</h2>
+            <h2 class="span-4 no-margin">Moves </h2>
             <div class="form-group span-4 form-group--playbook__move" v-for="doc in data" :key="doc._id">
                 <h3 class="no-margin">{{ doc.title }}</h3>
                 <ContentRenderer :value="doc" />
-                <input :id="doc._dir" :value="doc.title" v-model="selectedMoves" type="checkbox" />
+                <!-- <input :id="doc._dir" :value="doc.title" v-model="selectedMoves" type="checkbox" /> -->
             </div>
         </ContentQuery>
 
@@ -121,13 +118,9 @@
 </template>
 
 <script setup lang="ts">
-import { ParsedContent } from '@nuxt/content/dist/runtime/types';
-
-
 useHead({
     title: 'Character Sheet | Don\'t Dream',
 })
-
 
 const name = ref('');
 const body = ref(0);
@@ -137,7 +130,6 @@ const libraryUse = ref(0);
 const affect = ref(0);
 const selectedMoves = ref([]);
 const playbookDetails = ref();
-
 
 const attributes = [
     {
@@ -176,14 +168,10 @@ const showDetails = ref(true);
 const bonds = ref([{
     name: '',
     qp: 0
-}])
+}]);
 
 const showFileUpload = ref(false);
-
-function openFileUploader() {
-    showFileUpload.value = true;
-}
-
+const readyToImport = ref(true);
 
 function appendBond() {
     bonds.value.push({
@@ -216,6 +204,7 @@ function exportCharacter() {
             affect: affect.value,
             selectedMoves: selectedMoves.value,
             showDetails: showDetails.value,
+            name: name.value,
         }
 
         const data = JSON.stringify(sheet);
@@ -251,9 +240,6 @@ function importCharacter(e: Event) {
             console.error(e);
         }
     };
-    reader.readAsText(file);
-
-
 }
 
 const pbOptions = (await queryContent('/playbooks').find()).filter((p) => p._path !== '/playbooks');
