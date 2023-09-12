@@ -2,7 +2,7 @@
 title: Dream Warrior
 ---
 
-When you are confronted with something threatening in your dreams, you describe how the ideal version of yourself resists this harm and roll + COMPOSURE.
+When you are confronted with something just like a threatening dream you once had, you describe how you got out of trouble then and roll + COMPOSURE.
 
 - On a 10, choose 2. On a 7-9, choose 3.
 - The horrors are worse than you imagined. Describe how and lose 1 reality point.
