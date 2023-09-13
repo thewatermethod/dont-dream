@@ -12,6 +12,12 @@ The Cabal mystery works as a counterpart to the individual mysteries that the in
 
 The solutions that the investigators provide back to the Keeper are then ordered into something new by the Keeper. This may seem like a lot of responsibility, but the Keeper is given plenty of time and guidance. What follows is the basic pattern of uncovering the Cabal. Keepers should feel free to change the setting, names, history, and dark purposes of the Cabal to fit their own preferences, but it's recommended to use the framework below to structure the meta-mystery, even if everything else is discarded.
 
+<div class="callout-box">
+
+Cabal clues gathered in a single session can only unlock the next level of the cabal mystery. All other clues beyond this number do not persist to the next session. For example, the first level is unlocked at 1 clue. If the investigators gather 4 clues, they still receive the weirdness, and unlock "reveal the hand of the cabal," but begin the next session with 1 clue (not 4). They will work through level 2 until they get to 6 clues.
+
+</div>
+
 ## Level 1 - Reveal the Hand of the Cabal
 
 Unlock level 1 of the Cabal when the investigators would obtain their first cabal clue
@@ -65,7 +71,7 @@ The Keeper must answer the following questions, and revise their answers to any 
 
 ## Level 3 - The Nightmaster Cometh!
 
-Unlock level 3 of the Cabal after the investigators obtain their 5th cabal clue
+Unlock level 3 of the Cabal after the investigators obtain their 6th cabal clue
 
 The Cabal unleash the avatar of nightmares on the town in a bid to stop the investigators from reaching the truth.
 
@@ -94,7 +100,7 @@ The Keeper should also feel free to revise the answers to the questions asked in
 
 ## Level 4 - No More Room in Hell
 
-Unlock level 4 of the Cabal when the investigators would have obtained their 8th cabal clue.
+Unlock level 4 of the Cabal when the investigators would have obtained their 9th cabal clue.
 
 Things are spiraling out of hand for the Cabal. As their plans spiral out of control, the ancient powers that the Cabal have been consorting with exact their vengeance.
 
@@ -104,6 +110,6 @@ The Keeper should attempt to finalize the answers to the questions asked in prev
 
 ## Level 5 - The Lonely Cabin
 
-Unlock level 5 of the Cabal when the investigators obtain their 9th cabal clue.
+Unlock level 5 of the Cabal when the investigators obtain their 10th cabal clue.
 
 The secret history of Coffin's Mill comes down to a cabin in the woods. At this point, there are no more individual mysteries and all the remaining efforts of the investigators are put towards unraveling the final truths of the Cabal. Using the answers to the questions asked in the previous cabal scenes, the Keeper should direct the players to the Cabin in the Woods, where they can unlock the awful truth about the town and either save it or meet their doom.
