@@ -19,7 +19,7 @@ _The investigators sit in a diner in town (how’s the food?) when one of the yo
 
 ## The Killing
 
-Described by Claire as a tall man wearing “a full leather body suit”, “Elvis hair”, and carrying “an ax like a knight uses.” He killed two teenage girls, Lauren Quinlan and Cassandra Santos, a rookie police officer named Milo Jones, and a pizza delivery girl named Rita Brown.
+Described by Clarice as a tall man wearing “a full leather body suit”, “Elvis hair”, and carrying “an ax like a knight uses.” He killed two teenage girls, Lauren Quinlan and Cassandra Santos, a rookie police officer named Milo Jones, and a pizza delivery girl named Rita Brown.
 
 ## The Questions
 
@@ -87,7 +87,7 @@ Paint the scene: One of the handmade ads pasted to the window of the shop unnerv
 | Cost | Piece (bold must be chosen first)               |
 | ---- | ----------------------------------------------- |
 | [2]  | **All investigators survive the investigation** |
-| [1]  | **The identity of the murderer is discovered**  |
+| [2]  | **The identity of the murderer is discovered**  |
 | [1]  | **Where can the murderer be discovered?**       |
 | [1]  | The murderer is captured or killed              |
 | [1]  | All wagered bonds survive                       |
