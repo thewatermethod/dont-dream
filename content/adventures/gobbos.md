@@ -53,7 +53,7 @@ Paint the scene: There is a strange antique tool that looks like it can perform 
 
 - A very old folio copy of the complete poems of Christina Rosetti
 - A birdcage full of the skeletons of small dead birds
-- A futuristic looking heat lamp that seems very out of place given the
+- A futuristic looking heat lamp that seems very out of place given the age of all other appliances
 - A crate full of straw
 - A scroll written in Chinese
 - A locked room, which appears to be a perfectly preserved child’s room from the 1950’s.
@@ -69,7 +69,7 @@ Paint the scene: There is a strange antique tool that looks like it can perform 
 
 ## Magical Items
 
-- The investigator with the smallest grip reality is rewarded: a box that has what appears to be a large bird egg inside of it. Immediately and then once per session, as long as the egg remains in their possession, that investigator should make a reality check. The first time they fail, they come to the realization that the egg needs human blood splattered on it. Splattering the blood fills the investigator with incredibly positive feelings. Mark a bond with the egg. The egg loses a quality point each session it is not fed blood as a downtime action. If the player does feed the egg blood, they gain the advantage to all day and night rolls for that session. If the egg has no quality points or is sacrificed, the investigator is permanently plagued by bleak nightmares of being born into a prehistoric nightmare. Every time the investigator sleeps, they must make a reality check.
+- The investigator with the smallest grip reality is rewarded: a box that has what appears to be a large bird egg inside of it. Immediately and then once per session, as long as the egg remains in their possession, that investigator should make a reality check. The first time they fail, they come to the realization that the egg needs human blood splattered on it. Splattering the blood fills the investigator with incredibly positive feelings. Mark a bond with the egg. The egg loses a quality point each session it is not fed blood as a downtime action. If the player does feed the egg blood, they gain the advantage to Harm's Way rolls for that session. If the egg has no quality points or is sacrificed, the investigator is permanently plagued by bleak nightmares of being born into a prehistoric nightmare. Every time the investigator sleeps, they must make a reality check.
 
 - A collection of rare teas. These can be consumed for 1 HP a total of three times.
 

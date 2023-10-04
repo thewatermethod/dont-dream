@@ -44,7 +44,7 @@ Clues are necessary for the Investigators to solve the mysteries and killings wh
 
 ## Back from the Brink
 
-_If you would lose your last reality or health point, you may instead sacrifice a bond. If you do, roll + the points you invested in that bond._
+_If you would lose your last reality or health point, you may instead sacrifice a bond. (You can't sacrifice a bond with another investigator). If you do, roll + the points you invested in that bond._
 
 - On a 10+, you may regain one point in that bond. You and the keeper will narrate a scene explaining how your search for the dark conspiracy pushed your relationship to the limit. You may unlock one Cabal clue.
 - On a 7-9, you may unlock one Cabal clue. You and the keeper should explain how your relationship with that bond has unraveled.
