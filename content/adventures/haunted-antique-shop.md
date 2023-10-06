@@ -79,7 +79,7 @@ The investigator who earned the most clues is awarded: An ornate silver whistle 
 _When you lose or break the mysterious whistle, roll + POWER.
 On any hit, you are safe. On a 10+, the whistle appears again when and where you least expect it. On a miss, inform the keeper that you are being pursued by a being from deep time. They should use this in a hard move the next time you roll a miss or give them a golden opportunity._
 
-Everyone receives: A bottle of vintage Amontillado. As a downtime move, a player may drink a glass of Amontillado. Roll + HP. On a hit, that player may restore one health point. On a 9 or below, that player has the intense feeling of claustrophobia and must make a reality check.
+Everyone receives: A bottle of vintage Amontillado. As a downtime move, a player may drink a glass of Amontillado. Roll + HP. On a hit, that player may restore one health point. On a 9 or below, that player has the intense feeling of claustrophobia and must make a reality check. Good for 3 usages.
 
 ## Puzzle Pieces
 
@@ -92,6 +92,5 @@ Everyone receives: A bottle of vintage Amontillado. As a downtime move, a player
 | [1]  | The murderer is captured or killed                           |
 | [1]  | All wagered bonds survive                                    |
 | [1]  | Unlock a cabal clue                                          |
-| [1]  | Roll on the magical items table                              |
 
 \* _(each investigator must unlock to survive)_

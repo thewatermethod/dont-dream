@@ -21,3 +21,4 @@ Keepers are also encouraged to aware XP for out-of-game "support" activities lik
 Investigators can use XP to do the following at will:
 
 - Spend 2 XP to add +1 to any dice roll
+- Spend 3 XP to take an additional downtime action
