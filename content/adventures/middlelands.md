@@ -53,13 +53,15 @@ Some clues can be gathered from the body itself.
 
 ## Puzzle Pieces
 
-| Cost | Piece (bold must be chosen first)                   |
-| ---- | --------------------------------------------------- |
-| [1]  | **How did Dianne Cordon die?**                      |
-| [1]  | **What is the darkest secret her house is hiding?** |
-| [1]  | Your investigator survives the investigation\*      |
-| [1]  | The murderer is captured or killed                  |
-| [1]  | All wagered bonds survive                           |
-| [1]  | Unlock a cabal clue                                 |
+| Cost | Piece (bold must be chosen first)                                  |
+| ---- | ------------------------------------------------------------------ |
+| [1]  | **How did Dianne Cordon die?**                                     |
+| [1]  | **What is the darkest secret her house is hiding?**                |
+| [1]  | Your investigator survives the investigation\*                     |
+| [1]  | Your investigator is physically unscathed (does not lose 1 HP)     |
+| [1]  | Your investigator's grip on reality is secure (does not lose 1 RP) |
+| [1]  | The murderer is captured or killed                                 |
+| [1]  | All wagered bonds survive                                          |
+| [1]  | Unlock a cabal clue                                                |
 
 \* _(each investigator must unlock to survive)_
