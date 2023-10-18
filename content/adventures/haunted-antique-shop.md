@@ -72,11 +72,11 @@ The investigator with the least reality is rewarded: A handwritten copy of Kitab
 _When you are faced with something you can’t explain, Roll + LIBRARY USE or REALITY.
 On any hit, describe the dark god who gives you a grim omen from beyond that grants you a clue. On a 7-9, describe the person from your past whose face that god wears and make a reality check. On a miss, the dark god lies. Lose 1 reality._
 
-The investigator who earned the most clues is awarded: An ornate silver whistle with the phrase **quis est iste qui venit** carved into the side. As long as the whistle is in their possession, they take +1 to POWER. If they lose or break the whistle, they make the following move.
+The investigator who earned the most clues is awarded: As long as the whistle is in their possession, they take +1 to POWER. Each downtime, they must roll + POWER to resist blowing the whistle. If they do, it turns to dust and ash in their mouth, and they make the following move:
 
 #### Pursued from Beyond
 
-_When you lose or break the mysterious whistle, roll + POWER.
+_Roll + POWER.
 On any hit, you are safe. On a 10+, the whistle appears again when and where you least expect it. On a miss, inform the keeper that you are being pursued by a being from deep time. They should use this in a hard move the next time you roll a miss or give them a golden opportunity._
 
 Everyone receives: A bottle of vintage Amontillado. As a downtime move, a player may drink a glass of Amontillado. Roll + HP. On a hit, that player may restore one health point. On a 9 or below, that player has the intense feeling of claustrophobia and must make a reality check. Good for 3 usages.
