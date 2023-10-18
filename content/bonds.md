@@ -14,6 +14,4 @@ Investigators may also be called upon to sacrifice a bond itself, most often dur
 
 An investigator receives three bond points at character creation time. This represents the investigator’s main tie to the town that they live in when they first arrive.
 
-An investigator can also form bonds with the other investigators. You can nurture this bond with the Backstory Move. You can sacrifice quality points from this bond but you cannot sacrifice the bond itself.
-
-If a move or rule would have you sacrifice a bond with another investigator, you must instead sacrifice a health point or reality point.
+An investigator can also form bonds with the other investigators. You can nurture this bond with the Backstory Move.
