@@ -90,10 +90,11 @@ Wearing this mask, you take the advantage to any Gather Clues rolls but take - 1
 
 | Cost | Piece (bold must be chosen first)                                  |
 | ---- | ------------------------------------------------------------------ |
-| [1]  | **Where can the middlelands be found?**                            |
+| [1]  | **Where can the Middlelands be found?**                            |
 | [1]  | **How did Cameron Miles die?**                                     |
 | [1]  | **What is Cameron Miles terrible secret?**                         |
-| [1]  | Your investigator does not lose 1 composure                        |
+| [1]  | **Is the body that washed up on the river Cameron Miles?**         |
+| [1]  | Your investigator does not lose 1 Composure                        |
 | [1]  | Your investigator is physically unscathed (does not lose 1 HP)     |
 | [1]  | Another investigator of your choice gains 1 HP or Reality Point    |
 | [1]  | Your investigator's grip on reality is secure (does not lose 1 RP) |
