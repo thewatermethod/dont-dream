@@ -70,7 +70,7 @@ Paint the scene: What shape and form do the houses of the Middlelands take?
 
 ## Magical Items
 
-- The investigator with the smallest grip reality is rewarded:
+### The investigator with the smallest grip reality is rewarded:
 
 **A dream-form**
 
@@ -78,7 +78,7 @@ _Beautiful and limitless, you travel in the other world now_
 
 As a downtime move, you may travel to the Middlelands. If you do, describe the monstrous and beautiful form you take and roll + REALITY. On a hit, gain a reality point. On a 10+, gain 3. If you miss, you are lost forever in the other world.
 
-- The investigator who earned the most clues during this mystery is rewarded with:
+### The investigator who earned the most clues during this mystery is rewarded with:
 
 **A leather mask**
 
