@@ -32,5 +32,5 @@ You may choose to build your connections, tethering your investigator to reality
 
 You narrate a scene in town during which none of the player characters are present. The scene should be unsettling but not an actual murder. It may involve any player’s bonds or a new character or location within the town. It can be simply an evocative description, or a full narrative scene. Roll + POWER.
 
-- On a 10+, you gain 2 XP.
-- On a 7-9, you gain 1 XP.
+- On a 10+, you gain 3 XP.
+- On a 7-9, you gain 2 XP.
