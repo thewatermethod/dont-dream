@@ -11,7 +11,7 @@ _Later, a body is found in the pond. The throat has been chewed away. Police ide
 
 ## Setting the Scene
 
-- **First blood**: An investigator ran into Cameron Miles earlier that day. Miles was a pleasant man, given to muttering to himself. He had blood on his collar, and the investigator commented on it. What excuse did Miles give?
+**First blood**: An investigator ran into Cameron Miles earlier that day. Miles was a pleasant man, given to muttering to himself. He had blood on his collar, and the investigator commented on it. What excuse did Miles give?
 
 ## The Killing
 
@@ -59,7 +59,7 @@ Paint the scene: What shape and form do the houses of the Middlelands take?
 - A book of local history, notated in Miles's hand, about the construction of the sewers under Coffin's Mill.
 - A beautiful leather case filled with surgical tools
 - A ball-gag
-- A train ticket referencing The Station-in-between, a place that doesn't, as far as you know, exist
+- A train ticket referencing the Station-in-Between, a place that doesn't, as far as you know, exist
 - A series of family photographs dating back twenty years, always the same configuration
 - A death's head mask very old
 - An apppointment book written in a cipher
