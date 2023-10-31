@@ -7,9 +7,9 @@ _(8 clues to solve)_
 
 ## Setting the Scene
 
-**First blood**: You get invited to a Halloween party by Angela Dawn at an old house in town. What was the house before it was shut down in the 1940's, and why is it now called "The Witch House"?
+- **First blood**: You get invited to a Halloween party by Angela Dawn at an old house in town. What was the house before it was shut down in the 1940's, and why is it now called "The Witch House"?
 
-- Who's at the party?
+- (Everyone) Who's at the party?
 
 ## The murder
 
