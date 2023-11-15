@@ -104,7 +104,9 @@ Unlock level 4 of the Cabal when the investigators would have obtained their 9th
 
 Things are spiraling out of hand for the Cabal. As their plans spiral out of control, the ancient powers that the Cabal have been consorting with exact their vengeance.
 
-Vengeful ghosts of those that have died at the hands of the Cabal, during the mystery investigations, or in the investigator’s backstory will torment the investigators. The Elsewhere phase will no longer be played. Instead each investigator must narrate a scene for another where a ghost will attempt to do physical or mental harm to another. Start with the investigator with the lowest reality creating a scene for the investigator with the next lowest reality and then proceed as such until the investigator with the most reality creates a scene for the investigator with the least.
+Vengeful ghosts of those that have died at the hands of the Cabal, during the mystery investigations, or in the investigator’s backstory will torment the investigators. Each downtime, every investigator must first narrate a scene for another investigator where a ghost will attempt to do physical or mental harm to that investigator.
+
+Start with the investigator with the lowest reality creating a scene for the investigator with the next lowest reality and then proceed as such until the investigator with the most reality creates a scene for the investigator with the least.
 
 The Keeper should attempt to finalize the answers to the questions asked in previous Cabal scenes.
 
