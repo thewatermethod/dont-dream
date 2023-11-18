@@ -287,8 +287,58 @@ Either way, you gain a bond or a bond point with this figure. If you lose a bond
 
 _No markings. Fits perfectly_
 
-An investigator wearing this ring may reduce the clue cost of the wearer surviving a mystery to 0. If they do, they must make a POWER check. On a hit, they keep the ring. The Keeper has final say if the usage of the ring is appropriate.
+An investigator wearing this ring may reduce the clue cost of the wearer surviving a mystery to 0. If they do, they must make a POWER check at disadvantage. On a hit, they keep the ring. The Keeper has final say if the usage of the ring is appropriate.
 
 </div>
+
+<div>
+
+**21 - Mask of Many Faces**
+
+_The mask looks just like you, only a little bit better as using the library, somehow._
+
+You may activate the mask to switch the value on two of your attributes. You can remove the mask at any time to switch two other attributes. Each time you remove the mask, subtract one point from any attribute. (No attribute can go below a -3).
+
+</div>
+
+<div>
+
+**22 - New best friends**
+
+_"Another variety of creepy doll," you sigh. "Although, this one is smiling..."_
+
+A doll you feel an inexplicaple bond with. Each downtime, Roll + YOUR BOND WITH THE DOLL. On a hit, gain a bond point with the doll. On a 7-9, the bond comes from another one of your bonds. On a 12+, the doll gains two bond points and you sacrifice a bond.
+
+When you lose a bond point with the doll, it gets grumpy and lets you know. Roll Harm's Way.
+
+If you try to dispose of the doll, well, that's a mistake. Roll Harm's Way with disadvantage.
+
+</div>
+
+<div>
+
+**22 - Lucky die**
+
+_You can barely read the numbers on this things._
+
+Instead of a check, you may instead choose one, two, or three numbers between 1 and 6. Roll a single d6.
+If one of the numbers you've chosen is the result, consult the table below. On a miss, the highest face of the dice disappears.
+
+| Number of choices | Result                                                                                |
+| ----------------- | ------------------------------------------------------------------------------------- |
+| 1                 | Treat this as a 7-9. You may also choose to gain a reality, health, or bond point.    |
+| 2                 | Treat this as a 10+. You may also choose to gain a reality, health, or bond point.    |
+| 3                 | Treat this as a 12+. You may also choose to gain two reality, health, or bond points. |
+
+</div>
+
+<!-- Matchbox from "The Rabbit in Red Lounge"-->
+<!-- Polaroid that reveals how you die-->
+<!-- haunted mask that won't come off -->
+<!-- alchemical spray that semi-paralyzes-->
+<!-- pets & companions -->
+<!-- bowler hat of inspiration -->
+<!-- Beautiful white flower -->
+<!-- moisturizer -->
 
 </div> <!-- closes striped content-->
