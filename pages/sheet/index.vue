@@ -76,19 +76,6 @@
             <button @click="appendBond" type="button">+ Bond</button>
         </div>
 
-        <div class="form-group span-2" id="vice-group">
-            <h2>Vice</h2>
-            <p class="explainer">Investigators have a vice they can indulge during downtime in order to regain points in its
-                governing vice. A vice feeds a particular attribute.</p>
-            <label for="vice">Describe your vice</label>
-            <input type="text" id="vice" name="vice" v-model="vice" />
-            <label for="vice_attribute">Vice attribute</label>
-            <select id="vice_attribute" name="vice_attribute" v-model="viceAttribute">
-                <option>Health</option>
-                <option>Reality</option>
-            </select>
-        </div>
-
         <div class="form-group span-4" id="playbook-group">
             <h2>Playbook</h2>
             <label for="playbook">Choose a playbook</label>
@@ -159,8 +146,6 @@ const attributes = [
     }
 ];
 
-const vice = ref('');
-const viceAttribute = ref('');
 const health = ref(3);
 const reality = ref(3);
 const playbook = ref('');
@@ -191,8 +176,6 @@ function resetMoves() {
 function exportCharacter() {
     try {
         const sheet = {
-            vice: vice.value,
-            viceAttribute: viceAttribute.value,
             health: health.value,
             reality: reality.value,
             playbook: playbook.value,
