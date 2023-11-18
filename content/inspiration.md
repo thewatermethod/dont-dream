@@ -1,6 +1,6 @@
 ---
 title: Inspiration/Appendix N
-pdf_order: 32
+pdf_order: 50
 ---
 
 It is customary in these kinds of books to include a list of media that inspired your game. What follows is a short list of movies, books, and television shows that informed the development and tone of this game. Watch/read at your own peril. Of course, you should feel free to ignore these and take inspiration from whatever you’d like, and use this game for whatever you’d like.

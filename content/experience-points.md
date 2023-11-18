@@ -2,7 +2,7 @@
 title: Experience points
 prev: 17
 rules_page: 18
-pdf_order: 33
+pdf_order: 40
 ---
 
 Experience points in _Don't Dream_ are unlike experience points in other games. Whereas in other games, experience points (XP) can be used to make a character more powerful, in _Don't Dream_ they provide various levels of utility.

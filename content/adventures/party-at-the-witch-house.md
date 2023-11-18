@@ -1,5 +1,6 @@
 ---
 title: Party at the Witch House
+pdf_order: 32
 ---
 
 Difficulty 4
