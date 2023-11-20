@@ -86,4 +86,3 @@ When you put it on, you are deprived of all your senses and open yourself up to 
 | [1]  | The murderer is captured or killed                                      |
 | [1]  | All wagered bonds survive                                               |
 | [1]  | Unlock a cabal clue                                                     |
-| ---- | ------------------------------------------------------------------      |

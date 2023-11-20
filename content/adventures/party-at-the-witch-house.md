@@ -91,4 +91,3 @@ Once per session, if you don't like a roll you've just made, you can draw a taro
 | [1]  | The murderer is captured or killed                                 |
 | [1]  | All wagered bonds survive                                          |
 | [1]  | Unlock a cabal clue                                                |
-| ---- | ------------------------------------------------------------------ |
