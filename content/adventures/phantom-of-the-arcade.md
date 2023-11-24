@@ -62,11 +62,11 @@ It's wet down here, which makes it a strange place to store a bunch of electroni
 
 ## Magical Item
 
-A large metal helmet
+A large metal bird
 
-_It makes it impossible to see, and hard to breathe, but you look like a very cool robot_
+_Staring into it's eyes makes it hard to breathe for you to breathe_
 
-When you put it on, you are deprived of all your senses and open yourself up to the insight of the universe. Roll + POWER. On a 10+, choose 2. On a 7-9, choose 3. On a miss, choose 4.
+When you meditate on the bird, you are deprived of all your senses and open yourself up to the insight of the universe. Roll + POWER. On a 10+, choose 2. On a 7-9, choose 3. On a miss, choose 4.
 
 - Take the advantage to your next roll.
 - Gain a clue
