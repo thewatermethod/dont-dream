@@ -1,5 +1,5 @@
 ---
-title: Hero of the Beach (downtime)
+title: "Downtime: Hero of the Beach"
 ---
 
 If you choose to spend your downtime action working on your bod, roll + BODY.
